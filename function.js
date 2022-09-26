@@ -58,7 +58,7 @@ function cekKategori() {
 					const responses = await fetchData.json();
 
 					const products = responses.produk;
-					products.forEach((product) => {
+					products?.forEach((product) => {
 						looping(product);
 					});
 				}

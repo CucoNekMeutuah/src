@@ -1,4 +1,4 @@
-tttfunction cekKategori() {
+function cekKategori() {
 				var kategori = data;
 				$.each(kategori, function (i, data) {
 					$('#list-kategori').append(

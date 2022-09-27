@@ -4,7 +4,7 @@
             var id = $('#nomor-telepon').val();
             $.ajax({
                method: 'GET',
-               url: 'https://api.multipratamaasia.id/v2.1/ewallet/dana/?hp=' + id + '&key=' + keyCekID,
+               url: 'https://api.multipratamaasia.id/v2.1/ewallet/linkaja/?hp=' + id + '&key=' + keyCekID,
                dataType: 'json',
                data: {
                   id: id,

@@ -1,10 +1,10 @@
-$('#check-id').click(function (e) {
+                $('#check-id').click(function (e) {
              const wrapHasilUsername = document.querySelector('.wrap-hasil-username');
             e.preventDefault();
             var id = $('#nomor-telepon').val();
             $.ajax({
                method: 'GET',
-               url: 'https://api.multipratamaasia.id/v2.1/ewallet/ovo/?hp=' + id + '&key=8dbf10433ec796d',
+               url: 'https://api.multipratamaasia.id/v2.1/ewallet/ovo/?hp=' + id + '&key=' + keyCekID,
                dataType: 'json',
                data: {
                   id: id,

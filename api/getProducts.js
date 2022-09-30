@@ -18,7 +18,7 @@
 							`', '` +
 							data.nama2 +
 							`', '` +
-							data.gambar +
+							data.gambar2 +
 							`')"><div class="container row_pilihan">` +
 							`<img src="${data.gambar2}" class="img-category-product" />` +
 							`<h5>` +

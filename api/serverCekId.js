@@ -4,9 +4,10 @@
              const wrapHasilUsername = document.querySelector('.wrap-hasil-username');
             e.preventDefault();
             var id = $('#nomor-telepon').val();
+            var zoneId = $('#zoneId').val();
             $.ajax({
                method: 'GET',
-               url: link + versi + '/' + account + '/' + accountName + '/' + '?hp=' + id  + '&server=' + zone + '&key=' + key,
+               url: link + versi + '/' + account + '/' + accountName + '/' + '?hp=' + id  + '&server=' + zoneId + '&key=' + key,
                dataType: 'json',
                data: {
                   id: id,

@@ -6,7 +6,7 @@ var Emoney = ["ovo", "dana", "gopay", "shopeepay", "isaku", "grab", "linkaja"];
             var id = $('#nomor-telepon').val();
             $.ajax({
                method: 'GET',
-               url: link + versi + '/' + account + '/' + accountName + '/' + '?hp=' + id  + '&key=' + key,
+               url: link + versi + '/' + AkuN + '/' + TypeAkun + '/' + '?hp=' + id  + '&key=' + key,
                dataType: 'json',
                data: {
                   id: id,

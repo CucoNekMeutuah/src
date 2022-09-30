@@ -2,8 +2,7 @@
         
         var cp = ["https://i.ibb.co/BCbGrkm/20220624-035810.png"];
         
-        var nama2 = ["DANA", "OVO", "LinkAja", "Grab", "GoPay", "ShopeePay", "iSAKU"];
-        
+        var nama2 = ["DANA", "OVO", "LinkAja", "Grab", "GoPay", "ShopeePay", "iSAKU", "AOV", "FreeFire", "CallOfDuty", "HiggsDomino", "BGMI", "GENSIN", "LORDMOBILE", "MARVELSW", "RAGNAROK", "POINTBLANK"];
         
         var dana = ["dana-304037", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9p6xMnSxAKgy71KAacDVO2b5D7IeaaSziA&usqp=CAU"];
         var ovo = ["ovo-304038", "https://i.ibb.co/TTHhhNG/20220624-025928.png"];

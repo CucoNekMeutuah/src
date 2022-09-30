@@ -1,4 +1,4 @@
- var Game = ["aov", "freefire", "mobilelegends", "callofduty", "higgsdomino", "bgmi", "gensin", "lmobile", "marvelsw", "ragnarok", "pointblank"];
+ var Game = ["aov", "freefire", "callofduty", "higgsdomino", "bgmi", "gensin", "lmobile", "marvelsw", "ragnarok", "pointblank"];
 
                 $('#check-id').click(function (e) {
              const wrapHasilUsername = document.querySelector('.wrap-hasil-username');

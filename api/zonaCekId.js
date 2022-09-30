@@ -6,7 +6,7 @@
             var id = $('#nomor-telepon').val();
             $.ajax({
                method: 'GET',
-               url: link + versi + '/' + account + '/' + accountName + '/' + '?hp=' + id  + '&zone=' + zone + '&key=' + key,
+               url: link + versi + '/' + account + '/' + accountName + '/' + '?hp=' + id  + '&zone=' + zoneId + '&key=' + key,
                dataType: 'json',
                data: {
                   id: id,

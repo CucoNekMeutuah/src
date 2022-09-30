@@ -1,9 +1,7 @@
-// untuk kategori 			
-					
-					let data = [
+		    let data = [
 					{
 					nama: 'Pilihan Produk',
-					nama2: 'TopUp OVO',
+					nama2: 'TopUp ' + Products,
 					url_kategori: getProducts,
 					gambar: logoMe,
 					gambar2: logoProducts,
@@ -33,14 +31,17 @@
 			cekKategori();
 
 			// url web
+			
 			var url = site + vendor + '/' + user + '/';
 			// keluarkan kategori
+			
 			function kategori(index, val) {
 				var kategori = data[index].val;
 				return kategori;
 			}
 
 			// looping tampilan desain list produk
+			
 			function looping(lopp) {
 				const { harga, nama, url } = lopp;
 				$('#list-produk').append(
@@ -75,12 +76,14 @@
 			}
 
 			// jalanlan parameter pertama
+			
 			$('#kategori-pilihan').html(data[0].nama);
 			getApi(data[0].url_kategori);
 
 		document.getElementById('card-img-operator').src = logoMe;
 
 			// data klik
+			
 			function dataklik(url, nama, gambar) {
 				let img = document.getElementById('card-img-operator');
 				$('.list-group-item').remove();

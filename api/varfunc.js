@@ -1,5 +1,3 @@
-        var g3tApi = ["DonPay", "https://bo.dipayin.my.id/dev/public/v2/api/", "https://bo.dipayin.my.id/dev/public/v2/detail/", "073809c85bbee275e8e77b7969799bde34244ef537dc514252f7d6c3229e7d9c"];
-        
         var cp = ["https://i.ibb.co/BCbGrkm/20220624-035810.png"];
         
         var nama2 = ["DANA", "OVO", "LinkAja", "Grab", "GoPay", "ShopeePay", "iSAKU", "AOV", "FreeFire", "CallOfDuty", "HiggsDomino", "BGMI", "GENSIN", "LORDMOBILE", "MARVELSW", "RAGNAROK", "POINTBLANK"];
@@ -18,4 +16,3 @@
         var gopay = ["gopay-304039", "https://i.ibb.co/xhfcbgP/images.png"];
         var shopeepay = ["shopepay-304040", "https://i.ibb.co/j4FWpq2/images.png"];
         var isaku = ["isaku-347161", "https://i.ibb.co/9NKyVj8/images-1.png"];
-        var APIcekId = ["https://api.multipratamaasia.id/", "v2.1", "ewallet", "game", "8dbf10433ec796d"];
